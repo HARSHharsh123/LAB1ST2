@@ -1,0 +1,35 @@
+print("4" in "45")
+print(chr(98))
+st = "Harsh Shukla"
+print(st[:3] + st[3:])
+print(st[:3],st[3:])
+print(st[::-1])
+print(st[:-5] + st[-5:])
+print(st[11:18])
+print(st[12:21])
+print("hello "*4)
+print("harsh "+"Shukla")
+print("a" == "B")#lexicological odering
+print("ab" in "harshbabab")
+print(len(st))
+print("harsh".capitalize())
+print("harsh is my name".find("rs",1,5))
+print("".isalnum())#at least one character
+print("harsh".isalpha())
+print("12345".isdigit())
+print(" ".isspace())#returns true is space exists in string.
+print("harSh".isupper())
+print(" ".isupper())
+print("HaRsH".islower())
+print("Harsh Shukla Is My Name".istitle()) #title case means first letter of each word must be capital
+print("HARSH".lower())
+print("harsh".upper())
+print("harsh shukla is my name".title())
+print("HarsH ShuKLa".swapcase())
+print("Hello World is the best thing in pro".partition("the"))
+print("hello bro how hello bhai to us bhai bro".count("bro",8))#we can give the range upto where we have to count paricular substring
+print("----Hello world-----".strip("-"))
+print("----Hello world-----".lstrip("-"))
+print("----Hello world-----".rstrip("-"))
+print(min("harsh"))
+print(max("harsh"))
